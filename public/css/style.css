@@ -1,0 +1,36 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid rgb(47, 90, 47);
+}
+
+body{
+  background: #beecbe;
+}
+
+header{
+  background: #3a5c3a;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.display-flex justify-space-between align-center p-2{
+  color: #056605;
+}
+
+.no-button:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}

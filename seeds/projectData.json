@@ -1,0 +1,17 @@
+[
+  {
+    "name": "MVC - A Key Development Tool",
+    "description": "MVC, or Model-View-Controller design is a simple yet effective way of developing apps. The framework starts by desiging a model, a design if you will, of what the user will work with when they use the app. This is followed by the view. The view is built using handlebars or another templating function, that will dynamically generate page data given the model that it fits. Finally, this brings us to Controller, which simply routes the user to the appropriate page.",
+    "needed_funding": 5000
+  },
+  {
+    "name": "What you need to know about HW14",
+    "description": "To help make this easier on myself, I took a completed example activity and started building out routes, handlebars, and a backend that was more appropriate for the homework while adding some more features. ",
+    "needed_funding": 10000
+  },
+  {
+    "name": "A Review on Class so Far",
+    "description": "It's been very challenging, but very exciting! Example text Example text Example text Example text Example text Exampletext. ",
+    "needed_funding": 800
+  }
+]
