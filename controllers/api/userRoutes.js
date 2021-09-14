@@ -9,10 +9,12 @@ router.post('/', async (req, res) => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
 
+      //userData
       res.status(200).json(userData);
     });
   } catch (err) {
     res.status(400).json(err);
+    console.log(err);
   }
 });
 
@@ -57,5 +59,6 @@ router.post('/logout', (req, res) => {
     res.status(404).end();
   }
 });
+
 
 module.exports = router;
